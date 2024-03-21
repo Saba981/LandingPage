@@ -1,8 +1,0 @@
-{
-  "name": "my-nextjs-app",
-  "build": {
-    "env": {
-      "NODE_ENV": "production"
-    }
-  }
-}
