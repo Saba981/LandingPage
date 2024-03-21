@@ -158,11 +158,11 @@ export default function Home() {
         <div className={styles.icons} >
           
 
-        <Link style={{color: "black"}}target="_blank" href={"https://www.facebook.com/saba.lekishvili.944"}>  
+        {/* <Link style={{color: "black"}}target="_blank" href={"https://www.facebook.com/saba.lekishvili.944"}>  
           <FaFacebook
           size={30}
           />            
-        </Link>
+        </Link> */}
 
         <Link style={{color: "black"}}target="_blank" href={"https://www.instagram.com/_lekishvili_/"}>
           <FaInstagram 
