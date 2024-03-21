@@ -112,7 +112,6 @@
   height: 40px;
   left: 80%;
   top: 25%;
-  z-index: 33;
 }
 
 .waterMark10 {
@@ -121,4 +120,44 @@
   height: 40px;
   left: 4%;
   top: 85%;
+}
+
+@media only screen and (max-width: 1080px) {
+  .container {
+    width: 564px;
+    height: 704px;
+    transform: translateX(100px);
+  }
+}
+
+
+
+@media only screen and (max-width: 1080px) {
+  .hoverProfile {
+    transform: translateX(85px);
+    
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .spana {
+    transform: translateX(84px);
+    
+  }
+}
+
+
+@media only screen and (max-width: 1080px) {
+  .hoverimage {
+    transform: translate(-10px , 30px);
+    
+  }
+}
+
+
+@media only screen and (max-width: 1080px) {
+  .forImage {
+
+   width: 400px;
+  }
 }

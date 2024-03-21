@@ -25,9 +25,6 @@ import Watermark8 from "next/image"
 import Watermark9 from "next/image"
 import Watermark10 from "next/image"
 
-
-
-
 import watermark1 from "/public/watermarks/7.png";
 import watermark2 from "/public/watermarks/2.png";
 import watermark3 from "/public/watermarks/3.png";
@@ -38,10 +35,6 @@ import watermark7 from "/public/watermarks/7.png";
 import watermark8 from "/public/watermarks/7.png";
 import watermark9 from "/public/watermarks/7.png";
 import watermark10 from "/public/watermarks/7.png";
-
-
-
-
 
 
 import profileimage from "/public/landing.png";
@@ -143,7 +136,7 @@ export default function Home() {
           
           /> */}
 
-          <span style={{textAlign: "center",position: "absolute",top: "130px",fontFamily: "inherit",color: "rgb(33,33,10)" ,fontSize: "25px"}}> <b>SABA LEKISHVILI</b> </span>
+          <span className={styles.spana} style={{textAlign: "center",position: "absolute",top: "130px",fontFamily: "inherit",color: "rgb(33,33,10)" ,fontSize: "25px"}}> <b>SABA LEKISHVILI</b> </span>
         </div>
         <div className={styles.mainContainer}>
           <span style={{zIndex: "4",position: "absolute",transform: "translateX(-150px)",top:"260px",color: "white"}} > <b>FIVERR PROFILE FOR ORDER</b> </span>
