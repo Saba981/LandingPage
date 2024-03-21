@@ -1,3 +1,5 @@
+'use client'
+
 import styles from "./page.module.css";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -53,6 +55,7 @@ import Link from "next/link";
 
 
 export default function Home() {
+
   return (
     
     <main className={styles.main}>
